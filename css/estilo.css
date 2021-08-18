@@ -3,14 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap");
 /*colores*/
 /*fuentes*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 header {
   background-color: #586065;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -24,6 +19,9 @@ header {
   margin-left: 8rem;
   margin-bottom: 0.5rem;
   align-self: flex-end; }
+  @media all and (max-width: 1024px) {
+    .inicio {
+      margin: auto; } }
   .inicio .inicio-titulo {
     text-decoration: none;
     font-family: "Montserrat Alternates", sans-serif;
@@ -48,12 +46,21 @@ header {
   margin-top: 30px;
   margin-right: 8rem;
   align-self: flex-end; }
+  @media all and (max-width: 1024px) {
+    .navegacion {
+      margin: auto; } }
   .navegacion .navegacion_link {
     margin-bottom: 0.5rem;
     flex-wrap: nowrap; }
+    @media all and (max-width: 768px) {
+      .navegacion .navegacion_link {
+        padding: 0; } }
     .navegacion .navegacion_link .navegacion-link_lista {
       display: inline;
       padding: 0rem 1rem; }
+      @media all and (max-width: 768px) {
+        .navegacion .navegacion_link .navegacion-link_lista {
+          padding: 0rem 0.2rem; } }
     .navegacion .navegacion_link .navegacion-link_estilo {
       text-decoration: none;
       font-family: "Montserrat Alternates", sans-serif;
