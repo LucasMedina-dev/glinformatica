@@ -12,11 +12,11 @@ section{
 	height:400px;
 	display:flex;
 	justify-content:center;
-	margin-left:8rem;
+	padding-left:8rem;
 	flex-direction:column;
 	z-index:100;
 	@media all and (max-width:768px){
-		margin-left: inherit;
+		padding-left: inherit;
 	}
 	.informacion-titulo{
 		width:320px;
