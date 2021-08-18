@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap");
+/*colores*/
+/*fuentes*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #586065;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-shadow: black 0px 0px 10px;
+  position: relative;
+  z-index: 1;
+  box-sizing: content-box; }
+
+.inicio {
+  margin-left: 8rem;
+  margin-bottom: 0.5rem;
+  align-self: flex-end; }
+  .inicio .inicio-titulo {
+    text-decoration: none;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 5px black; }
+  .inicio .inicio-titulo_color {
+    color: #f9f9f9; }
+
+/*  
+			/
+		  /	|
+ 		/	|
+ 	   -	|
+	  ^^	| (-.- ) 
+	 ^^^	|l--|--}
+			|   |
+		      /°\
+
+*/
+.navegacion {
+  margin-top: 30px;
+  margin-right: 8rem;
+  align-self: flex-end; }
+  .navegacion .navegacion_link {
+    margin-bottom: 0.5rem;
+    flex-wrap: nowrap; }
+    .navegacion .navegacion_link .navegacion-link_lista {
+      display: inline;
+      padding: 0rem 1rem; }
+    .navegacion .navegacion_link .navegacion-link_estilo {
+      text-decoration: none;
+      font-family: "Montserrat Alternates", sans-serif;
+      font-weight: 400;
+      color: #b2c0cd;
+      letter-spacing: 0.05rem; }
+
+section {
+  z-index: 1000;
+  background-color: #f9f9f9; }
+
+.carousel {
+  height: 400px;
+  box-shadow: 0 2px 20px black; }
+
+.informacion {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-left: 8rem;
+  flex-direction: column;
+  z-index: 100; }
+  @media all and (max-width: 768px) {
+    .informacion {
+      margin-left: inherit; } }
+  .informacion .informacion-titulo {
+    width: 320px;
+    font-size: 1.8rem;
+    text-shadow: 0 0 14px black;
+    margin-bottom: 0;
+    color: #d7d4c7; }
+    @media all and (max-width: 768px) {
+      .informacion .informacion-titulo {
+        margin: 20px auto;
+        text-align: center; } }
+  .informacion .informacion-parrafo {
+    width: 320px;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #d7d4c7;
+    text-shadow: 0 0 5px black; }
+    @media all and (max-width: 768px) {
+      .informacion .informacion-parrafo {
+        margin: 0 auto;
+        text-align: center; } }
+  .informacion .informacion-link {
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 20px; }
+    @media all and (max-width: 768px) {
+      .informacion .informacion-link {
+        margin: 0 auto;
+        text-align: center; } }
+    .informacion .informacion-link .informacion-link_boton {
+      background-color: #0a1418;
+      text-align: center;
+      text-decoration: none;
+      border: solid rgba(0, 0, 0, 0); }
+    .informacion .informacion-link .informacion-link_contacto {
+      margin-bottom: 0;
+      color: #586065; }
+      .informacion .informacion-link .informacion-link_contacto:hover {
+        color: #d7d4c7; }
+
+.separador {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: rgba(178, 192, 205, 0.6);
+  margin-top: 30px;
+  filter: blur(1px); }
+
+.presentacion {
+  margin: 60px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: "Nunito", sans-serif; }
+  .presentacion .presentacion-contenido {
+    width: 300px;
+    text-align: center; }
+    .presentacion .presentacion-contenido .presentacion-contenido_icono {
+      font-size: 3rem;
+      color: #b2c0cd; }
+    .presentacion .presentacion-contenido .presentacion-contenido_titulo {
+      font-size: 1.3rem;
+      margin-top: 40px;
+      font-weight: 600; }
+    .presentacion .presentacion-contenido .presentacion-contenido_descripcion {
+      margin-top: 30px;
+      font-size: .8rem;
+      color: #798da3;
+      font-weight: 400; }

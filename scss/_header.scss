@@ -1,0 +1,59 @@
+header{
+	background-color:$gris-oscuro;
+	width: 100vw;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	box-shadow: black 0px 0px 10px;
+	position: relative;
+	z-index:1;
+	box-sizing:content-box;
+}
+.inicio{
+	margin-left: 8rem;
+	margin-bottom:0.5rem;
+	align-self:flex-end;
+	.inicio-titulo{
+		text-decoration: none;
+		font-family: $montserrat;
+		font-weight: $light;
+		font-size: 1.5rem;
+		text-shadow: 0px 0px 5px black;
+	}
+	.inicio-titulo_color{
+		color: $gris-claro;
+	}
+	
+}
+/*  
+			/
+		  /	|
+ 		/	|
+ 	   -	|
+	  ^^	| (-.- ) 
+	 ^^^	|l--|--}
+			|   |
+		      /°\
+
+*/
+.navegacion{
+	margin-top:30px;
+	margin-right: 8rem;
+	align-self: flex-end;
+	.navegacion_link{
+		margin-bottom: 0.5rem;
+		flex-wrap:nowrap;
+		.navegacion-link_lista{
+			display:inline;
+			padding: 0rem 1rem;
+		}
+		.navegacion-link_estilo{
+			text-decoration:none;
+			font-family:$montserrat;
+			font-weight:$regular;
+			color: $gris-celeste;
+			letter-spacing: 0.05rem;
+		}
+	}
+}
