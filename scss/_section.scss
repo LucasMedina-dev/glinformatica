@@ -15,7 +15,7 @@ section{
 	padding-left:8rem;
 	flex-direction:column;
 	z-index:100;
-	@media all and (max-width:768px){
+	@media all and (max-width:1024px){
 		padding-left: inherit;
 	}
 	.informacion-titulo{
@@ -24,7 +24,7 @@ section{
 		text-shadow: 0 0 14px black;
 		margin-bottom:0;
 		color: $gris-marron;
-		@media all and (max-width: 768px){
+		@media all and (max-width: 1024px){
 			margin:20px auto;
 			text-align:center;
 		}
@@ -35,30 +35,28 @@ section{
 		font-size: 1rem;
 		color:$gris-marron;
 		text-shadow: 0 0 5px black;
-		@media all and (max-width: 768px){
+		@media all and (max-width: 1024px){
 			margin:0 auto;
 			text-align:center;
 		}
 	}
 	.informacion-link{
-		text-decoration:none;
-		width:120px;
-		height:30px;
-		margin-top:20px;
-		@media all and (max-width: 768px){
-			margin:0 auto;
+		width:110px;
+		height: 30px;
+		background-color:$gris-oscuro;
+		padding:0;
+		border: none;
+		border-radius: 30px;
+		@media all and (max-width: 1024px){
+			margin:15px auto;
 			text-align:center;
 		}
 		.informacion-link_boton{
 			
-			background-color:rgb(10,20,24);
-			text-align: center;
-			text-decoration:none;
-			border:solid rgba(0, 0, 0, 0);
 		}
 		.informacion-link_contacto{
-			margin-bottom:0;
-			color: $gris-oscuro;
+			margin: auto 0;
+			color:$gris-marron;
 			&:hover{
 				color: $gris-marron;
 			}

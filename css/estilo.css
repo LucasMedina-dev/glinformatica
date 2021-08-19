@@ -21,7 +21,9 @@ header {
   align-self: flex-end; }
   @media all and (max-width: 1024px) {
     .inicio {
-      margin: auto; } }
+      margin: auto;
+      text-align: center;
+      width: 100%; } }
   .inicio .inicio-titulo {
     text-decoration: none;
     font-family: "Montserrat Alternates", sans-serif;
@@ -85,7 +87,7 @@ section {
   padding-left: 8rem;
   flex-direction: column;
   z-index: 100; }
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 1024px) {
     .informacion {
       padding-left: inherit; } }
   .informacion .informacion-titulo {
@@ -94,7 +96,7 @@ section {
     text-shadow: 0 0 14px black;
     margin-bottom: 0;
     color: #d7d4c7; }
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 1024px) {
       .informacion .informacion-titulo {
         margin: 20px auto;
         text-align: center; } }
@@ -104,27 +106,24 @@ section {
     font-size: 1rem;
     color: #d7d4c7;
     text-shadow: 0 0 5px black; }
-    @media all and (max-width: 768px) {
+    @media all and (max-width: 1024px) {
       .informacion .informacion-parrafo {
         margin: 0 auto;
         text-align: center; } }
   .informacion .informacion-link {
-    text-decoration: none;
-    width: 120px;
+    width: 110px;
     height: 30px;
-    margin-top: 20px; }
-    @media all and (max-width: 768px) {
+    background-color: #586065;
+    padding: 0;
+    border: none;
+    border-radius: 30px; }
+    @media all and (max-width: 1024px) {
       .informacion .informacion-link {
-        margin: 0 auto;
+        margin: 15px auto;
         text-align: center; } }
-    .informacion .informacion-link .informacion-link_boton {
-      background-color: #0a1418;
-      text-align: center;
-      text-decoration: none;
-      border: solid rgba(0, 0, 0, 0); }
     .informacion .informacion-link .informacion-link_contacto {
-      margin-bottom: 0;
-      color: #586065; }
+      margin: auto 0;
+      color: #d7d4c7; }
       .informacion .informacion-link .informacion-link_contacto:hover {
         color: #d7d4c7; }
 
