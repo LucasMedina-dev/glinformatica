@@ -157,3 +157,35 @@ section {
       font-size: .8rem;
       color: #798da3;
       font-weight: 400; }
+
+.devoluciones .devoluciones-titulo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin: 40px auto 20px; }
+
+.devoluciones .devoluciones-contenedor {
+  width: 100%;
+  min-height: 100px;
+  position: relative;
+  box-shadow: 0 25px 30px black;
+  overflow: hidden; }
+  .devoluciones .devoluciones-contenedor .devoluciones-flecha_prev {
+    background: linear-gradient(90deg, #798da3 0%, #f9f9f9 100%, #f9f9f9 100%); }
+  .devoluciones .devoluciones-contenedor .devoluciones-flecha_next {
+    background: linear-gradient(270deg, #798da3 0%, #f9f9f9 100%, #f9f9f9 100%); }
+  .devoluciones .devoluciones-contenedor .devoluciones-flecha_width {
+    width: 10%; }
+  .devoluciones .devoluciones-contenedor .devoluciones-contenido {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    text-align: center; }
+    .devoluciones .devoluciones-contenedor .devoluciones-contenido .devoluciones-texto {
+      font-family: "Nunito", sans-serif; }
+      .devoluciones .devoluciones-contenedor .devoluciones-contenido .devoluciones-texto .devoluciones-texto_bold {
+        font-weight: 600; }
+      .devoluciones .devoluciones-contenedor .devoluciones-contenido .devoluciones-texto .devoluciones-texto_margin {
+        margin: 0 10%;
+        display: block; }
