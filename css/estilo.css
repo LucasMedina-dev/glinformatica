@@ -158,34 +158,34 @@ section {
       color: #798da3;
       font-weight: 400; }
 
-.devoluciones .devoluciones-titulo {
+.trabajos .trabajos-titulo {
   font-size: 1.3rem;
   font-weight: 600;
   display: block;
   text-align: center;
   margin: 40px auto 20px; }
 
-.devoluciones .devoluciones-contenedor {
+.trabajos .trabajos-contenedor {
   width: 100%;
   min-height: 100px;
   position: relative;
   box-shadow: 0 25px 30px black;
   overflow: hidden; }
-  .devoluciones .devoluciones-contenedor .devoluciones-flecha_prev {
+  .trabajos .trabajos-contenedor .trabajos-flecha_prev {
     background: linear-gradient(90deg, #798da3 0%, #f9f9f9 100%, #f9f9f9 100%); }
-  .devoluciones .devoluciones-contenedor .devoluciones-flecha_next {
+  .trabajos .trabajos-contenedor .trabajos-flecha_next {
     background: linear-gradient(270deg, #798da3 0%, #f9f9f9 100%, #f9f9f9 100%); }
-  .devoluciones .devoluciones-contenedor .devoluciones-flecha_width {
+  .trabajos .trabajos-contenedor .trabajos-flecha_width {
     width: 10%; }
-  .devoluciones .devoluciones-contenedor .devoluciones-contenido {
+  .trabajos .trabajos-contenedor .trabajos-contenido {
     height: 100%;
     display: flex;
     align-content: center;
     text-align: center; }
-    .devoluciones .devoluciones-contenedor .devoluciones-contenido .devoluciones-texto {
+    .trabajos .trabajos-contenedor .trabajos-contenido .trabajos-texto {
       font-family: "Nunito", sans-serif; }
-      .devoluciones .devoluciones-contenedor .devoluciones-contenido .devoluciones-texto .devoluciones-texto_bold {
+      .trabajos .trabajos-contenedor .trabajos-contenido .trabajos-texto .trabajos-texto_bold {
         font-weight: 600; }
-      .devoluciones .devoluciones-contenedor .devoluciones-contenido .devoluciones-texto .devoluciones-texto_margin {
+      .trabajos .trabajos-contenedor .trabajos-contenido .trabajos-texto .trabajos-texto_margin {
         margin: 0 10%;
         display: block; }
